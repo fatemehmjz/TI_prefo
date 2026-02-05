@@ -1,0 +1,54 @@
+body{
+background-image: url("../image/picindex.jpg") 
+
+    align-items: center;
+    margin: 0%;
+    
+}
+header{
+
+border-radius: 1px solide black;
+text-align: center;
+
+color: black;}
+div{
+    align-items: center;
+}
+nav{
+    text-align: left;
+    background-color: rgb(223, 233, 236);
+ padding: 15px;
+    margin-right: 1600px;
+    margin-top: 50px;
+    text-align: center;
+   background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+section{
+    text-align: center;
+
+}
+.content{
+color: black;
+border: 1px;
+
+}
+footer{
+      background-color: black;
+    color: blanchedalmond;
+margin-top: 900px;
+   
+    text-align: center;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+color: black;
+}
