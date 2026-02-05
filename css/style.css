@@ -4,6 +4,9 @@ background-image: url("../image/123.jpg") ;
 background-repeat: no-repeat;
 
 }
+#global{
+    position: relative;
+}
 header{
    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px ;
@@ -21,6 +24,7 @@ div{
     align-items: center;
 }
 nav{
+    position: sticky;
     text-align: left;
     background-color: rgb(223, 233, 236);
  padding: 15px;
@@ -38,9 +42,7 @@ section{
     text-align: center;
 
 }
-.content{
 
-}
 .card{
   position: absolute;
     border-radius: 60px;
@@ -64,26 +66,19 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .card1{
     position: absolute;
-     
     border-radius:60px ;
-    
     margin-left: 900px;
     margin-top: 50px;
-  
-    
      width: 200px;
     height: 200px;
-    
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
- 
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-    
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .card2{
     position: absolute;
@@ -94,7 +89,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   
   
     margin-left: 600px;
-   margin-top: 450px;
+   margin-top: 350px;
      width: 200px;
     height: 200px;
     background: rgba(255, 255, 255, 0.2);
@@ -114,7 +109,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   margin-bottom: 20px;
 
      margin-left: 900px;
-  margin-top: 450px;
+  margin-top: 350px;
      width: 200px;
     height: 200px;
     background: rgba(255, 255, 255, 0.2);
@@ -123,14 +118,12 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
-    
-
 }
 
 footer{
       background-color: black;
     color: blanchedalmond;
-margin-top: 2000px;
+margin-top: 650px;
    
     text-align: center;
     padding: 18px;
