@@ -1,6 +1,8 @@
 body{
   
-background-image: url("../image/pic4.jpg");
+background-image: url("../image/pic3.jpg") ;
+background: cover; 
+
     align-items: center;
     
    
@@ -18,11 +20,10 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 color: black;}
-.global{
-    position: relative;
-}
-div{
+.card{
      
+    margin-top: 100px;
+    text-align: left;
      border-radius: 10px;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -34,7 +35,6 @@ backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
 nav{
-    position: sticky;
     text-align: left;
    
     background-color: rgb(223, 233, 236);
@@ -48,14 +48,11 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
-section{
-    text-align: left;
-}
-.content{
-color: black;
-border: 1px;
 
-}
+
+
+
+
 footer{
       background-color: black;
     color: blanchedalmond;

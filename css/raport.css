@@ -1,9 +1,12 @@
 body{
   
-background-image: url("../image/pic4.jpg");
+background-image: url("../image/2.jpg");
     align-items: center;
     
    
+}
+#global{
+    position: relative;
 }
 header{
    font-family: Arial, Helvetica, sans-serif;
@@ -18,18 +21,7 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 color: black;}
-div{
-     
-     border-radius: 10px;
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-   background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-}
+
 nav{
     text-align: left;
    
@@ -44,14 +36,29 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 section{
+    position: relative;
     text-align: left;
+
+    
 }
 .content{
 color: black;
 border: 1px;
 
 }
+.card{
+    margin-left: 400px;
+    margin-right: 550px;
+     border-radius: 10px;
+     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+     background: rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 footer{
       background-color: black;
     color: blanchedalmond;

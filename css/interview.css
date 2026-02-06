@@ -1,15 +1,13 @@
 body{
   
-background-image: url("../image/pic4.jpg");
+background-image: url("../image/2.jpg") ;
+background: cover; 
+
     align-items: center;
     
    
 }
-#global{
-    position: relative;
-}
 header{
-  
    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px ;
     padding: 10px;
@@ -22,8 +20,10 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 color: black;}
-div{
+.card{
      
+    margin-top: 100px;
+    text-align: left;
      border-radius: 10px;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
@@ -34,10 +34,8 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
 nav{
-      position: sticky;
-    top: 0;
-    z-index: 100;
     text-align: left;
    
     background-color: rgb(223, 233, 236);
@@ -51,14 +49,11 @@ backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
-section{
-    text-align: left;
-}
-.content{
-color: black;
-border: 1px;
 
-}
+
+
+
+
 footer{
       background-color: black;
     color: blanchedalmond;
